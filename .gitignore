@@ -1,0 +1,22 @@
+bin/
+obj/
+.vs/
+*.log
+*.log.*
+*.suo
+*.user
+
+.vscode/
+Angular/
+node_modules/
+build/
+PrecompiledWeb/
+
+#Identity Server
+!_current/_src/packages/BuildBundlerMinifier.2.6.362/build/
+_current/_src/build
+style.min.css
+Bundle.min.js
+
+#NuGet packages
+!_current/_src/packages/*/build/
